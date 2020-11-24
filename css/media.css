@@ -9,19 +9,20 @@ html {
 }
 
 body {
-  
+  width: 100%;
+  height: 500px;
 }
 
 main {
-  display: flex;
-  justify-content: center;
+  width: inherit;
+  height: inherit;
 }
 
 .main-logo {
   width: 100%;
+  height: 130px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .textlogo {
@@ -31,26 +32,106 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin-top: 6rem;
+  position: absolute;
 }
 
 .globologo {
   width: 190px;
-  height: 190px;
+  height: 200px;
   background-image:url('../img/Globo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  position: absolute;
+  position: relative;
+  margin: auto;
+  top: 180px;
+}
+
+.main-idioma{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submain-idioma{
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ 
+}
+.language {
+  width: 110px;
+  height: 20px;
+  display: flex;
+  flex-wrap: wrap;
   
 }
 
-.main-idiomas {
-  height: 500px;
+.idioma-box {
+  width: 150px;
+  height: 20px;
   text-align: center;
-  
 }
-.main-idiomas .div {
-  width: 100vw;
-  height: 50vh;
-  display: flex;
+strong {
+  font-size: 1.6rem;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+
+.lang1{
+  position: relative;
+  right: 60%;
+}
+
+.lang2{
+  position: relative;
+  left: 60%;
+}
+
+.lang3{
+  position: relative;
+  right: 70%;
+}
+
+.lang4{
+  position: relative;
+  left: 70%;
+}
+
+.lang5{
+  position: relative;
+  right: 72%;
+}
+
+.lang6{
+  position: relative;
+  left: 72%;
+}
+
+.lang7{
+  position: relative;
+  right: 70%;
+}
+
+.lang8{
+  position: relative;
+  left: 70%;
+}
+
+.lang9{
+  position: relative;
+  right: 60%;
+}
+
+.lang10{
+  position: relative;
+  left: 60%;
 }
